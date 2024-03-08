@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background: url(https://pxwall.com/wp-content/uploads/2018/06/Wallpaper%20Trebarwith%20Strand,%204k,%205k%20wallpaper,%208k,%20England,%20travel,%20tourism,%20sunset,%20cliff,%20sea,%20Travel%20656193064.jpg);
+    background-size: cover;
+}
+.video{
+    position: absolute;
+    width:20%;
+    height: 20vh;
+    right:80%;
+    left:0%;
+    bottom: 65%;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color:rgba(205, 92, 92, 0.726);
+    background-color: aqua(205, 92, 92, 0.726);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgba(83, 236, 216, 0.918);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #fff(205, 92, 92, 0.726);;
+}
+.register a.hover{
+    border: 1px solid rgb(92, 103, 205);
+    background: transparent;
+}
+.register a{
+    text-decoration: none;
+    color: rgb(250, 241, 241);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background:rgba(205, 92, 92, 0.726);
+}
+.register a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgba(21, 187, 165, 0.89);
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5em;
+}
+.h-text a{
+    text-decoration: none;
+    background: rgb(92, 133, 205);
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid rgba(15, 161, 142, 0.61);
+    background: transparent;
+}
